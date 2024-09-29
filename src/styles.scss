@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "PlaypenSansRegular";
+    src: url('assets/fonts/static/PlaypenSans-Regular.ttf');
+    font-weight: 500px;
+}
+
+@font-face {
+    font-family: 'PlaypenSansBold';
+    src: url('assets/fonts/static/PlaypenSans-Bold.ttf');
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "PlaypenSansRegular"; }

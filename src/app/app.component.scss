@@ -1,0 +1,79 @@
+h1{
+    font-family: 'PlaypenSansBold';
+}
+h2,h3,h4{
+    font-family: 'PlaypenSansRegular';
+}
+.headline{
+    font-family: 'PlaypenSansBold';
+    font-size: 6rem;
+    color: blueviolet;
+    margin: 5%;
+}
+.example-container {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 85rem;
+    height: 35rem;
+    border: 1px solid rgba(223, 33, 230, 0.5);
+    background-color: rgba(230, 179, 240, 0.435);
+    border-radius: 1rem;
+}
+
+.example-sidenav-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 6%;
+    font-family:'PlaypenSansRegular';
+    
+}
+
+.example-sidenav {
+    background-color: rgb(210, 63, 240);
+    button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 11rem;
+    }
+    padding: 20px;
+}
+
+.skills{
+    display: flex;
+    gap: 4rem;
+    .skill-set{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+}
+
+.card{
+    margin: 3%;
+    width: 70%;
+}
+.example-card {
+    max-width: 400px;
+    margin: 1rem;
+    border-radius: 2rem;
+    img{
+        border-radius: 1rem;
+        margin: 1rem;
+        width: 23rem;
+        height: 13rem;
+    }
+    button{
+        background-color: rgba(235, 127, 168, 0.781);
+    }
+}
+.card-div{
+    display: flex;
+    font-family: 'PlaypenSansRegular';
+}
+
+.resume-img{
+    width: 900px;
+
+}

@@ -1,0 +1,145 @@
+<mat-dialog-content class="mat-typography">
+    <div [ngSwitch]="id">
+      <div *ngSwitchCase="'1'">
+        <dl>
+          <p style="font-weight: bold">Features:</p>
+          <dt>User Management:</dt>
+          <dd>Manages profiles for students, teachers, and alumni.</dd>
+          <dt>Forums:</dt>
+          <dd>
+            A platform for interactions among students, teachers, and alumni,
+            particularly focused on topics like placements, career guidance, and
+            academic discussions.
+          </dd>
+          <dt>Q&A Section:</dt>
+          <dd>
+            Provides a dedicated space for students and teachers to ask and answer
+            questions, helping resolve academic queries and foster collaboration.
+          </dd>
+        </dl>
+        <dl>
+          <p style="font-weight: bold">Technologies Used:</p>
+          <dt>Frontend:</dt>
+          <dd>
+            The user interface is built using React.js, a part of the MERN stack,
+            known for its flexibility and efficiency in building single-page
+            applications.
+          </dd>
+          <dt>Backend:</dt>
+          <dd>
+            Node.js with Express.js handles the server-side operations, providing
+            a fast and scalable backend.
+          </dd>
+          <dt>Database:</dt>
+          <dd>
+            MongoDB, a NoSQL database, is used for storing data. It allows for
+            flexible schema design, making it well-suited for handling a variety
+            of data types in a community system.
+          </dd>
+          <dt>Github:</dt>
+          <dd>
+            <a
+              href="https://github.com/sumit8199/CollegeCommunitySystem_MERN_Stack.git"
+              >click here</a
+            >
+          </dd>
+        </dl>
+        <h2>Snapshots:</h2>
+        <h3>Question And Answer Part:</h3>
+        <img src="/assets/ccs1.jpg" alt="ccs1" />
+        <img src="/assets/ccs2.jpg" alt="ccs2" style="height: 70rem" />
+        <h3>Forum Part:</h3>
+        <img src="/assets/ccs3.jpg" alt="ccs3" />
+        <img src="/assets/ccs4.jpg" alt="ccs4" />
+        <img src="/assets/ccs5.jpg" alt="ccs5" />
+      </div>
+      <div *ngSwitchCase="'2'">
+        <dl>
+          <p style="font-weight: bold">Features:</p>
+          <dt>Secure File Sharing:</dt>
+          <dd>
+            Allows users to upload files to a central server securely, with all
+            data being encrypted using Triple DES before transmission.
+          </dd>
+          <dt>Data Encryption:</dt>
+          <dd>
+            Implements Triple DES, an advanced encryption standard, to safeguard
+            sensitive information, ensuring compliance with data protection
+            regulations.
+          </dd>
+          <dt>Encrypted Data Exchange:</dt>
+          <dd>
+            Facilitates the sharing of encrypted files between users, maintaining
+            privacy and security.
+          </dd>
+        </dl>
+        <dl>
+          <p style="font-weight: bold">Technologies Used:</p>
+          <dt>Frontend:</dt>
+          <dd>
+            Built with HTML, CSS, and JavaScript, providing a user-friendly
+            interface for uploading and downloading files.
+          </dd>
+          <dt>Backend:</dt>
+          <dd>
+            Flask, a lightweight Python framework, is used to handle the
+            server-side logic and encryption processes.
+          </dd>
+          <dt>Database:</dt>
+          <dd>
+            MySQL is used to store the metadata associated with the files and
+            manage user data securely.
+          </dd>
+        </dl>
+        <h2>Snapshots:</h2>
+        <img src="/assets/eds1.jpg" alt="eds1" />
+        <img src="/assets/eds2.jpg" alt="eds2" />
+        <img src="/assets/eds3.jpg" alt="eds3" />
+      </div>
+      <div *ngSwitchCase="'3'">
+        <dl>
+          <p style="font-weight: bold">Features:</p>
+          <dt>Search and Filter Options:</dt>
+          <dd>
+            Add robust search and filter options for pet owners to find potential
+            caretakers based on location, experience, and reviews.
+          </dd>
+          <dt>Reviews and Ratings:</dt>
+          <dd>
+            Enable a review and rating system for pet sitters. This helps build
+            trust and provides valuable feedback for future users.
+          </dd>
+          <dt>In-App Communication:</dt>
+          <dd>
+            Provide a secure messaging system within the app for users to discuss
+            details and arrangements without leaving the platform.
+          </dd>
+          <dt>Health and Safety Tips:</dt>
+          <dd>
+            Include a section with tips and guidelines on how to care for pets,
+            emphasizing health and safety practices to avoid infections and ensure
+            well-being.
+          </dd>
+        </dl>
+        <dl>
+          <p style="font-weight: bold">Technologies Used:</p>
+          <dt>Frontend:</dt>
+          <dd>Built with Angular, providing a user-friendly interface.</dd>
+          <dt>Backend:</dt>
+          <dd>
+            Java, Spring boot handles the server-side operations, providing a fast
+            and scalable backend.
+          </dd>
+          <dt>Database:</dt>
+          <dd>
+            MySQL is used to store the metadata associated with the files and
+            manage user data securely.
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Close</button>
+  </mat-dialog-actions>
+  
